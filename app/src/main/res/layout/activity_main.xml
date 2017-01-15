@@ -209,4 +209,13 @@
         app:layout_constraintRight_toRightOf="@+id/activity_main"
         app:layout_constraintTop_toBottomOf="@+id/editText" />
 
+    <Button
+        android:text="NEG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonNeg"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/button0"
+        app:layout_constraintLeft_toLeftOf="@+id/button0" />
+
 </android.support.constraint.ConstraintLayout>
